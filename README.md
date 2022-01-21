@@ -5,8 +5,8 @@ BeatSaberのPlaylistsディレクトリに展開・上書きするスクリプ�
 BSRankedPlaylist
 https://github.com/aplulu/bs-ranked-playlist
 
-Apululuさん作成のプレイリストを使用するには PlaylistManager が必要です。
-ModAssistant などを使用してPlaylistManagerをインストールしてください。
+Apululuさん作成のプレイリストを使用するには [PlaylistManager] が必要です。
+[ModAssistant](https://github.com/Assistant/ModAssistant) などを使用して[PlaylistManager](https://github.com/rithik-b/PlaylistManager)をインストールしてください。
 
 ## 使い方
 
