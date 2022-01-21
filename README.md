@@ -25,7 +25,7 @@ Apluluさん作成のプレイリストを使用するには [PlaylistManager](h
 
 ### 設定
 
-`config.ini`を開き、BeatSaberのPlaylistsディレクトリを `param`、`playlist_dir`に設定します。
+`config.ini`を開き、BeatSaberのPlaylistsディレクトリを `param`、`playlist_dir`に設定します。  
 Playlistsディレクトリは `[Beat Saberインストールディレクトリ]\Playlists` にあります。
 
 ```config.ini
@@ -46,7 +46,7 @@ clean_flag = True
 log_dir = log
 ```
 
-`playlist_downloader.exe`を実行すると、`work_dir`に設定した作業ディレクトリと、`log_dir`に設定したlogディレクトリが作成されます。
+`playlist_downloader.exe`を実行すると、`work_dir`に設定した作業ディレクトリと、`log_dir`に設定したlogディレクトリが作成されます。  
 以下のような内容のlogが出力されておれば、正常に完了しています。
 
 ```
