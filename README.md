@@ -14,14 +14,18 @@ Apluluさん作成のプレイリストを使用するには [PlaylistManager](h
 
 ### 導入
 
-releaseから、`BSRankedPlaylistDownloader.zip`をダウンロードし解凍します。
+[release](https://github.com/hatopopvr/BSRankedPlaylistDownloader/releases)から、`BSRankedPlaylistDownloader.zip`をダウンロードし、任意のディレクトリに解凍し配置します。
+`release`の内容には以下が含まれます。
 
 - `playlist_downloader.exe`
 - `config.ini`
+- `LICENSE`
+- `python-used-licenses.csv`
+- `README.md`
 
 ### 設定
 
-BeatSaberのPlaylistsディレクトリを `config.ini`の`param`、`playlist_dir`に設定します。
+`config.ini`を開き、BeatSaberのPlaylistsディレクトリを `param`、`playlist_dir`に設定します。
 Playlistsディレクトリは `[Beat Saberインストールディレクトリ]\Playlists` にあります。
 
 ```config.ini
