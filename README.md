@@ -6,6 +6,10 @@ BeatSaberのPlaylistsディレクトリに展開・上書きするスクリプ�
 Apluluさん作成のプレイリストを使用するには [PlaylistManager](https://github.com/rithik-b/PlaylistManager) が必要です。
 [ModAssistant](https://github.com/Assistant/ModAssistant) などを使用して`PlaylistManager`をインストールしてください。
 
+## 適用範囲
+本プログラムは以下の環境でのみ動作を確認しています。
+- Windows 10 pro 64bit
+
 ## 使い方
 
 ### 導入
@@ -61,7 +65,14 @@ log_dir = log
 
 ### 捕捉 
 
-定期的に実行するには、タスクスケジューラ等に登録ください。
+定期的に実行するには、タスクスケジューラ等をご利用ください。
+
+## ライセンス
+
+このソフトウェアは、[MITライセンス](https://github.com/hatopopvr/BSRankedPlaylistDownloader/blob/main/LICENSE)のもとで公開されています。
+
+## 各種ライブラリのライセンスについて
+`playlist_downloader.exe`に内包する具体的なライブラリのライセンスについては、同梱する[python-used-licenses.csv](https://github.com/hatopopvr/BSRankedPlaylistDownloader/blob/main/python-used-licenses.csv)を参照願います。
 
 ## 連絡先
 Twitter [@hatopop_vr](https://twitter.com/hatopop_vr)
