@@ -1,7 +1,5 @@
 # BSRankedPlaylistDownloader
-[Beat Saber用] Apluluさん([@aplulu_cat](https://twitter.com/aplulu_cat))作成のBeat Saber用ランク譜面の難易度別及びPP別のプレイリスト[BSRankedPlaylist](https://github.com/aplulu/bs-ranked-playlist)
-
-ranked_all.zip をダウンロード・解凍し、
+[Beat Saber用] Apluluさん([@aplulu_cat](https://twitter.com/aplulu_cat))作成のBeat Saber用ランク譜面の難易度別及びPP別のプレイリスト[BSRankedPlaylist](https://github.com/aplulu/bs-ranked-playlist)から `ranked_all.zip` をダウンロード・解凍し、
 BeatSaberのPlaylistsディレクトリに展開・上書きするスクリプトです。
 
 
