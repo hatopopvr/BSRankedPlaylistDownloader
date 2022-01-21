@@ -3,7 +3,7 @@
 BeatSaberのPlaylistsディレクトリに展開・上書きするスクリプトです。
 
 
-Apululuさん作成のプレイリストを使用するには [PlaylistManager](https://github.com/rithik-b/PlaylistManager) が必要です。
+Apluluさん作成のプレイリストを使用するには [PlaylistManager](https://github.com/rithik-b/PlaylistManager) が必要です。
 [ModAssistant](https://github.com/Assistant/ModAssistant) などを使用して`PlaylistManager`をインストールしてください。
 
 ## 使い方
