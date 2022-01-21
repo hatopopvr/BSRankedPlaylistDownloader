@@ -1,0 +1,7 @@
+Name,Version,License,URL,Description
+certifi,2021.10.8,Mozilla Public License 2.0 (MPL 2.0),https://certifiio.readthedocs.io/en/latest/,Python package for providing Mozilla's CA Bundle.
+chardet,4.0.0,GNU Library or Lesser General Public License (LGPL),https://github.com/chardet/chardet,Universal encoding detector for Python 2 and 3
+idna,2.10,BSD License,https://github.com/kjd/idna,Internationalized Domain Names in Applications (IDNA)
+requests,2.25.1,Apache Software License,https://requests.readthedocs.io,Python HTTP for Humans.
+urllib3,1.26.8,MIT License,https://urllib3.readthedocs.io/,"HTTP library with thread-safe connection pooling, file post, and more."
+zipp,3.7.0,MIT License,https://github.com/jaraco/zipp,Backport of pathlib-compatible object wrapper for zip files
