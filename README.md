@@ -1,12 +1,12 @@
 # BSRankedPlaylistDownloader
-[Beat Saber用] Apluluさん(@aplulu_cat)作成のBeat Saber用ランク譜面の難易度別及びPP別のプレイリストranked_all.zip をダウンロード・解凍し、
+[Beat Saber用] Apluluさん(@aplulu_cat)作成のBeat Saber用ランク譜面の難易度別及びPP別のプレイリスト[BSRankedPlaylist](https://github.com/aplulu/bs-ranked-playlist)
+
+ranked_all.zip をダウンロード・解凍し、
 BeatSaberのPlaylistsディレクトリに展開・上書きするスクリプトです。
 
-BSRankedPlaylist
-https://github.com/aplulu/bs-ranked-playlist
 
-Apululuさん作成のプレイリストを使用するには [PlaylistManager] が必要です。
-[ModAssistant](https://github.com/Assistant/ModAssistant) などを使用して[PlaylistManager](https://github.com/rithik-b/PlaylistManager)をインストールしてください。
+Apululuさん作成のプレイリストを使用するには [PlaylistManager](https://github.com/rithik-b/PlaylistManager) が必要です。
+[ModAssistant](https://github.com/Assistant/ModAssistant) などを使用して`PlaylistManager`をインストールしてください。
 
 ## 使い方
 
@@ -66,4 +66,4 @@ log_dir = log
 定期的に実行するには、タスクスケジューラ等に登録ください。
 
 ## 連絡先
-Twitter @hatopop_vr
+Twitter [@hatopop_vr](https://twitter.com/hatopop_vr)
