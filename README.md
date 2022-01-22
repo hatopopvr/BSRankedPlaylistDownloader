@@ -15,7 +15,8 @@ Apluluさん作成のプレイリストを使用するには [PlaylistManager](h
 ### 導入
 
 [release](https://github.com/hatopopvr/BSRankedPlaylistDownloader/releases)から、`BSRankedPlaylistDownloader.zip`をダウンロードし、任意のディレクトリに解凍し配置します。  
-※私の場合は以下のように配置しています  : )  
+※私の場合は以下に配置しています  : )
+`C:\tools\playlist_downloader\playlist_downloader_1.01`
 
 `release`の内容には以下が含まれます。
 
@@ -69,9 +70,23 @@ log_dir = log
 2022-01-21 22:22:19,580 - __main__ - INFO - ---------------------------------
 ```
 
-### 捕捉 
+### 捕捉 (スケジューラの設定) 
 
-定期的に実行するには、タスクスケジューラ等をご利用ください。
+定期的に実行するには、タスクスケジューラ等をご利用ください。  
+※以下は私の場合の設定例です。 : )
+
+#### 全般
+名前：BSRankedPlaylistDownloader
+操作：ユーザーがログオンしているときのみ実行する
+最上位の特権で実行する
+構成：Widnwos10
+
+#### 操作
+プログラム/スクリプト：`C:\tools\playlist_downloader\playlist_downloader_1.01\playlist_downloader.exe`
+開始(オプション)：`C:\tools\playlist_downloader\playlist_downloader_1.01`
+
+#### トリガー
+毎日、4:00、繰り返し間隔 12時間、有効
 
 ## ライセンス
 
