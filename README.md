@@ -76,10 +76,10 @@ log_dir = log
 ※以下は私の場合の設定例です。 : )
 
 #### 全般
-名前：BSRankedPlaylistDownloader
-操作：ユーザーがログオンしているときのみ実行する
-最上位の特権で実行する
-構成：Widnwos10
+名前：BSRankedPlaylistDownloader  
+操作：ユーザーがログオンしているときのみ実行する  
+最上位の特権で実行する  
+構成：Widnwos10  
 
 #### 操作
 プログラム/スクリプト：`C:\tools\playlist_downloader\playlist_downloader_1.01\playlist_downloader.exe`
