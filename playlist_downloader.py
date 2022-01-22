@@ -7,9 +7,9 @@ from datetime import datetime
 from distutils.util import strtobool
 import logging
 import traceback
-import requests
 import configparser
-
+# Third party libraries
+import requests
 
 class PlaylistDownloader:
     """ Apluluさん(@aplulu_cat)作成のranked_all.zip をダウンロードし、playlistフォルダに展開するクラスです
