@@ -23,12 +23,11 @@ class PlaylistDownloader:
     def __init__(self, config):
         """ 一連の処理を実行します。
         """
-        self.url = config['param']['url']  # "https://github.com/aplulu/bs-ranked-playlist/releases/latest/download/ranked_all.zip"
-        # プレイリストのフォルダ
-        # r"D:\PythonProgram\AutoDownloadBSRankedPlaylist\playlist_dir"
+        # "https://github.com/aplulu/bs-ranked-playlist/releases/latest/download/ranked_all.zip"
+        self.url = config['param']['url'] 
+        # BeatSaber Playlistsのディレクトリ
         self.playlist_dir = config['param']['playlist_dir']
         # 作業ディレクトリ
-        #self.work_dir = "{}/{}".format(config['param']['work_dir'], datetime.now().strftime('%Y%m%d%H%M%S'))
         self.work_dir = os.path.join(
             config['param']['work_dir'], datetime.now().strftime('%Y%m%d%H%M%S'))
         # 作業ディレクトリ削除フラグ
@@ -124,7 +123,7 @@ def main():
     config.read('config.ini', encoding='utf-8')
 
     # 最新playlistの取得
-    playlist = PlaylistDownloader(config)  # , logger)
+    playlist = PlaylistDownloader(config)
     playlist.process()
 
 
