@@ -15,6 +15,8 @@ Apluluさん作成のプレイリストを使用するには [PlaylistManager](h
 ### 導入
 
 [release](https://github.com/hatopopvr/BSRankedPlaylistDownloader/releases)から、`BSRankedPlaylistDownloader.zip`をダウンロードし、任意のディレクトリに解凍し配置します。  
+※私の場合は以下のように配置しています  : )  
+
 `release`の内容には以下が含まれます。
 
 - `playlist_downloader.exe`
